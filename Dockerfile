@@ -1,6 +1,5 @@
-# ARG BUILD_FROM
-# FROM $BUILD_FROM
-FROM node:alpine
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 WORKDIR /http-server
 COPY http-server .
