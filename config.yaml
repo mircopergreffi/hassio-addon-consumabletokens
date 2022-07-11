@@ -10,11 +10,11 @@ arch:
   - armv7
   - i386
 url: https://github.com/mircopergreffi/hassio-addon-consumabletokens
-webui: http://[HOST]:[PORT]/dashboard
+# webui: http://[HOST]:[PORT]/dashboard
 startup: before
-boot: manual
+# boot: manual
 ports:
   8686/tcp: 8686
-host_network: true
-host_ipc: false
-hassio_api: false
+# host_network: true
+# host_ipc: false
+# hassio_api: false
