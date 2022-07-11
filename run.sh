@@ -1,5 +1,5 @@
-#!/usr/bin/with-contenv bashio
+#!/bin/sh
 
 echo "Hello world!"
 
-node /http-server/server-start.js
+pause
