@@ -1,0 +1,12 @@
+mixin tab-content()
+    div(class="tab-content mx-4 mb-0 mt-4")
+        block
+
+mixin tab-pane(id, active)
+    - classnames = "tab-pane fade" + (active ? " show active" : "")
+    div(class=classnames id=id role="tabpanel")
+        block
+
+mixin tab-nav()
+    nav(class="bottom-bar navbar navbar-light mb-2 mt-4 mx-4" id="tabbed-content")
+        block

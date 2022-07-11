@@ -1,0 +1,16 @@
+.mt {
+    margin-top: 4rem;
+}
+.text-center {
+    text-align: center;
+}
+.text-start {
+    text-align: left;
+}
+.ma {
+    margin: auto;
+}
+.small-table td {
+    padding: 0.2rem 1rem;
+    border: none;
+}

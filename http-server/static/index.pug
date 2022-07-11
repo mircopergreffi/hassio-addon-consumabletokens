@@ -1,0 +1,20 @@
+include mixins/tab.pug
+include mixins/container.pug
+include mixins/heading.pug
+
+doctype html
+html
+  head
+    include includes/head.pug
+    title Gate controller
+  body
+    div.container.text-center.mt
+        form(method="get" action="token" id="form")
+            h1.u-full-width Gate Controller
+            div.row.text-start
+                label.twelve.columns(for="input-token") Token
+            div.row.text-start
+                input.twelve.columns(type="text" name="token" id="input-token")
+            div.row.text-start
+                button.twelve.columns.button-primary(type="submit") Open
+    include includes/foot.pug

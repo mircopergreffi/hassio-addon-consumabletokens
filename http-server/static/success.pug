@@ -1,0 +1,19 @@
+include mixins/tab.pug
+include mixins/container.pug
+include mixins/heading.pug
+
+doctype html
+html
+  head
+    include includes/head.pug
+    title Gate controller
+  body
+    div.container.text-center.mt
+        form(method="get" action="token" id="form")
+            h3.u-full-width Welcome, #{token.owner}
+            div.row
+                p The #{token.device} should be on shortly.
+            div.row
+              input(type="hidden" name="token" value=token.id)
+              button(type="submit") Back
+    include includes/foot.pug

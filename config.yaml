@@ -3,6 +3,7 @@ description: "Generate Consumable Token for triggering acctions in Home Assistan
 version: "1.0.0"
 slug: "consumabletokens"
 init: false
+image: node:alpine
 arch:
   - aarch64
   - amd64
