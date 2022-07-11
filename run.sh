@@ -2,4 +2,4 @@
 
 echo "Hello world!"
 
-python -m http.server 8686
+python3 -m http.server 8686
