@@ -2,4 +2,4 @@
 
 echo "Hello world!"
 
-python3 -m http.server 8000
+node /http-server/server-start.js
