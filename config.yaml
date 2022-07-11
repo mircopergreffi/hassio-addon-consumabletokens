@@ -1,7 +1,7 @@
-name: "Consumable Token"
-description: "Generate Consumable Token for triggering acctions in Home Assistant"
+name: "Hello world"
+description: "My first real add-on!"
 version: "1.0.0"
-slug: consumable-token
+slug: "hello_world"
 init: false
 arch:
   - aarch64
