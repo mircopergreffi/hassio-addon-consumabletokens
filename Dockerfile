@@ -11,4 +11,5 @@ COPY run.sh /
 RUN chmod a+x /run.sh
 
 CMD [ "/bin/sh" ]
-EXPOSE 8081/tcp
+# EXPOSE 8081/tcp
+# EXPOSE 8082/tcp

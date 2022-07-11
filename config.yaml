@@ -15,7 +15,9 @@ url: https://github.com/mircopergreffi/hassio-addon-consumabletokens
 startup: before
 # boot: manual
 ports:
-  8686/tcp: 8686
+  8081/tcp: 8081
+  8082/tcp: 8082
+
 # host_network: true
 # host_ipc: false
 # hassio_api: false
